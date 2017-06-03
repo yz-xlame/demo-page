@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>中博城控股</title>
   <link rel="stylesheet" href="css/index.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <script src="js/index.js"></script>
 </head>
 <body>
   <div class="public-header">
@@ -20,26 +23,26 @@
       </div>
     </div>
     <div class="nav">
-      <div class="public-container clearfloat">
-        <a class="header-logo" href="">
+      <div class="public-container">
+        <a class="header-logo clearfloat" href="">
             <div class="logo"></div>
             <div class="txt"></div>
         </a>
         <div class="menu">
           <ul>
-            <li class="item"><a href="">首页</a></li>
-            <li class="item"><a href="">关于我们</a></li>
-            <li class="item"><a href="">集团产业</a></li>
-            <li class="item"><a href="">企业文化</a></li>
+            <li class="item"><a href="#index">首页</a></li>
+            <li class="item"><a href="#news">关于我们</a></li>
+            <li class="item"><a href="#industry">集团产业</a></li>
+            <li class="item"><a href="#culture">企业文化</a></li>
             <li class="item"><a href="">集团成员</a></li>
             <li class="item"><a href="">中博基金</a></li>
-            <li class="item"><a href="">加盟中博</a></li>
+            <li class="item"><a href="#jion">加盟中博</a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-  <div class="index-banner">
+  <div id="index" class="index-banner">
     <div class="banner-bg"><img class="bg-img" src="imgs/banner-bg.jpg" alt=""></div>
     <div class="banner-caption">
       <div class="caption-txt">
@@ -55,7 +58,7 @@
       <div class="caption-icon"><div class="inner-icon"></div></div>
     </div>
   </div>
-  <div class="index-panel news">
+  <div id="news" class="index-panel news">
     <div class="panel-header clearfloat">
       <h3>新闻中心</h3>
       <p><span>N</span>EWS <span>C</span>ENTER</p>
@@ -91,31 +94,62 @@
       </ul>
     </div>
   </div>
-  <div class="index-panel industry">
+  <div id="industry" class="index-panel industry">
     <div class="industry-bg"><img class="bg-img" src="imgs/industry-bg.jpg" alt=""></div>
-    <div class="public-container">
-      <div class="panel-header clearfloat">
+    <div class="panel-header clearfloat">
         <h3>集团产业</h3>
         <p><span>G</span>roup <span>I</span>ndustry</p>
         <span class="line"></span>
-      </div>
-      <div class="panel-body">
-        <ul>
+    </div>
+    <div class="panel-body public-container">
+        <ul class="clearfloat">
           <li class="item">
             <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
-            <a href="">中国城乡在线</a>
+            <a href="javascript(0)">中国城乡在线</a>
           </li>
           <li class="item">
             <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
-            <a href="">中国城乡在线</a>
+            <a href="javascript(0)">中国城乡在线</a>
           </li>
           <li class="item">
             <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
-            <a href="">中国城乡在线</a>
+            <a href="javascript(0)">中国城乡在线</a>
           </li>
           <li class="item">
             <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
-            <a href="">中国城乡在线</a>
+            <a href="javascript(0)">中国城乡在线</a>
+          </li>
+          <li class="item">
+            <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
+            <a href="javascript(0)">中国城乡在线</a>
+          </li>
+          <li class="item">
+            <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
+            <a href="javascript(0)">中国城乡在线</a>
+          </li>
+          <li class="item">
+            <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
+            <a href="javascript(0)">中国城乡在线</a>
+          </li>
+          <li class="item">
+            <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
+            <a href="javascript(0)">中国城乡在线</a>
+          </li>
+          <li class="item">
+            <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
+            <a href="javascript(0)">中国城乡在线</a>
+          </li>
+          <li class="item">
+            <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
+            <a href="javascript(0)">中国城乡在线</a>
+          </li>
+          <li class="item">
+            <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
+            <a href="javascript(0)">中国城乡在线</a>
+          </li>
+          <li class="item">
+            <img src="imgs/panel-item-bg.jpg" alt="" class="panel-item-bg">
+            <a href="javascript(0)">中国城乡在线</a>
           </li>
         </ul>
         <div class="panel-btm">
@@ -127,10 +161,9 @@
           <br>
           <span class="line"></span>
         </div>
-      </div>
     </div>
   </div>
-  <div class="index-panel culture">
+  <div id="culture" class="index-panel culture">
     <div class="panel-header clearfloat">
       <h3>企业文化</h3>
       <p><span>C</span>ORPORATE <span>C</span>LTURE</p>
@@ -140,59 +173,65 @@
       <img src="imgs/culture-bg.jpg" alt="">
       <ul>
         <li class="item pic-left">
-          <img src="imgs/culture-item1.jpg" alt="">
-          <h4>经营哲学</h4>
-          <p>
-          <span>科技、价值、稳健、共赢</span>
-          <br>
-          我们崇尚“科技是第一生产力”，一直以来，<br>
-          我们将“科技改变生活”理念融入到事业发 <br>
-          展中，专注于物联网技术研发与运用， 引领  <br>
-          助推数字化智能时代的到来...
-          </p>
+          <div class="pic"><img src="imgs/culture-item1.jpg" alt=""></div>
+          <div class="txt">
+            <h4>经营哲学</h4>
+            <p>
+            <span>科技、价值、稳健、共赢</span>
+            <br>
+            我们崇尚“科技是第一生产力”，一直以来，<br>
+            我们将“科技改变生活”理念融入到事业发 <br>
+            展中，专注于物联网技术研发与运用， 引领  <br>
+            助推数字化智能时代的到来...
+            </p>
+          </div>
         </li>
         <li class="item pic-left">
-          <img src="imgs/culture-item1.jpg" alt="">
-          <h4>经营哲学</h4>
-          <p>
-          <span>科技、价值、稳健、共赢</span>
-          <br>
-          我们崇尚“科技是第一生产力”，一直以来，<br>
-          我们将“科技改变生活”理念融入到事业发 <br>
-          展中，专注于物联网技术研发与运用， 引领  <br>
-          助推数字化智能时代的到来...
-          </p>
+          <div class="pic"><img src="imgs/culture-item1.jpg" alt=""></div>
+          <div class="txt">
+            <h4>经营哲学</h4>
+            <p>
+            <span>科技、价值、稳健、共赢</span>
+            <br>
+            我们崇尚“科技是第一生产力”，一直以来，<br>
+            我们将“科技改变生活”理念融入到事业发 <br>
+            展中，专注于物联网技术研发与运用， 引领  <br>
+            助推数字化智能时代的到来...
+            </p>
+          </div>
         </li>
         <li class="item pic-right">
-          <span class="txt">
-            <h4>核心价值观</h4>
-            <p>诚信、责任、胸怀、互助  <br>
-              尊重、自信、创新、奉献  <br>
-              诚信 —— 以诚取信，以信取胜。  <br>
-              责任 —— 敬业乐群，精心尽力。  <br>
-              胸怀 —— 海纳百川，厚德载物。  <br>
-              互助 —— 团结协作，共创佳绩...  <br>
+          <div class="pic"><img src="imgs/culture-item1.jpg" alt=""></div>
+          <div class="txt">
+            <h4>经营哲学</h4>
+            <p>
+            <span>科技、价值、稳健、共赢</span>
+            <br>
+            我们崇尚“科技是第一生产力”，一直以来，<br>
+            我们将“科技改变生活”理念融入到事业发 <br>
+            展中，专注于物联网技术研发与运用， 引领  <br>
+            助推数字化智能时代的到来...
             </p>
-          </span>
-          <img src="imgs/culture-item2.jpg" alt="">
+          </div>
         </li>
         <li class="item pic-right">
-          <span class="txt">
-            <h4>核心价值观</h4>
-            <p>诚信、责任、胸怀、互助  <br>
-              尊重、自信、创新、奉献  <br>
-              诚信 —— 以诚取信，以信取胜。  <br>
-              责任 —— 敬业乐群，精心尽力。  <br>
-              胸怀 —— 海纳百川，厚德载物。  <br>
-              互助 —— 团结协作，共创佳绩...  <br>
+          <div class="pic"><img src="imgs/culture-item1.jpg" alt=""></div>
+          <div class="txt">
+            <h4>经营哲学</h4>
+            <p>
+            <span>科技、价值、稳健、共赢</span>
+            <br>
+            我们崇尚“科技是第一生产力”，一直以来，<br>
+            我们将“科技改变生活”理念融入到事业发 <br>
+            展中，专注于物联网技术研发与运用， 引领  <br>
+            助推数字化智能时代的到来...
             </p>
-          </span>
-          <img src="imgs/culture-item2.jpg" alt="">
+          </div>
         </li>
       </ul>
     </div>
   </div>
-  <div class="index-panel jion">
+  <div id="jion" class="index-panel jion">
     <div class="jion-bg"><img class="bg-img" src="imgs/jion-bg.jpg" alt=""></div>
     <div class="panel-header clearfloat">
       <h3>加盟中博</h3>
@@ -200,7 +239,7 @@
       <span class="line"></span>
     </div>
     <div class="panel-body public-container">
-      <ul class="first">
+      <ul class="first clearfloat">
         <li class="item">
           <span class="icon"><img src="imgs/jion-item1.png" alt=""></span>
           <span class="txt">投资加盟</span>
@@ -226,7 +265,7 @@
       </ul>
     </div>
   </div>
-  <div class="index-panel icon">
+  <div id="icon" class="index-panel icon">
     <div class="panel-header clearfloat">
       <h3>
         合作伙伴 / 
@@ -300,6 +339,11 @@
     <div class="copyright">
       <p class="">中博城控股(集团)<span class="Separated">版权所有</span>Copyright © 2014 www.zhongbocheng.com All Rights Reserved | 备案号:粤ICP备10000XXX0号 | 粤公网安备110XXX00000000</p>
       <img src="imgs/copyright-logo.png" alt="">
+    </div>
+  </div>
+  <div class="play">
+    <div class="player">
+      <video src="video/video.mp4"></video>
     </div>
   </div>
 </body>
